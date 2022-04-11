@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.cc3ce418.css",
+    "main.js": "/dashboard/static/js/main.cfb6b1c6.js",
+    "static/media/userAva.png": "/dashboard/static/media/userAva.fb28732b2e75863664dd.png",
+    "index.html": "/dashboard/index.html",
+    "static/media/help-circle.svg": "/dashboard/static/media/help-circle.af9ec6920a3285db03ca.svg",
+    "static/media/plus-circle.svg": "/dashboard/static/media/plus-circle.4bfb7fe1e779dd03c63a.svg",
+    "static/media/print-blue.svg": "/dashboard/static/media/print-blue.d4dd11946482576cfc05.svg",
+    "static/media/print-gray.svg": "/dashboard/static/media/print-gray.fbceb80920240a2efe15.svg",
+    "static/media/chart-donut-blue.svg": "/dashboard/static/media/chart-donut-blue.37b9c9776ca07988373e.svg",
+    "static/media/chart-donut-gray.svg": "/dashboard/static/media/chart-donut-gray.d3a81d0106130656d38f.svg",
+    "static/media/sort.svg": "/dashboard/static/media/sort.4cccdcef9662d72cff58.svg",
+    "static/media/check-outline-blue.svg": "/dashboard/static/media/check-outline-blue.db97523bac37b66274a5.svg",
+    "static/media/check-outline-gray.svg": "/dashboard/static/media/check-outline-gray.924ecf4c7ba849192b8f.svg",
+    "static/media/download-blue.svg": "/dashboard/static/media/download-blue.456d52835f4e3ec1d6cc.svg",
+    "static/media/download-gray.svg": "/dashboard/static/media/download-gray.952e91195a7e56ad0c4d.svg",
+    "static/media/dropdown.svg": "/dashboard/static/media/dropdown.c2cceb740df47274a6ef.svg",
+    "main.cc3ce418.css.map": "/dashboard/static/css/main.cc3ce418.css.map",
+    "main.cfb6b1c6.js.map": "/dashboard/static/js/main.cfb6b1c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc3ce418.css",
+    "static/js/main.cfb6b1c6.js"
+  ]
+}
