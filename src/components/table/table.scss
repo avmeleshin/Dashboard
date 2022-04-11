@@ -1,0 +1,99 @@
+.table {
+    &__row {
+        display: flex;
+        align-items: stretch;
+        font-size: 20px;
+        line-height: calc(28 / 20);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: #5E6366;
+        letter-spacing: 0.15px;
+
+        .table__body & {
+            &:not(:last-child) {
+                border-bottom: 1px solid #E3E5E6;
+            }
+        }
+
+        .table__header & {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 16px;
+            line-height: calc(24 / 16);
+            color: #919699;
+            letter-spacing: 0.44px;
+            border-bottom: 2px solid #E3E5E6;
+        }
+    }
+
+    &__col {
+        flex: 0 0 118px;
+        width: 118px;
+        text-align: right;
+        padding: 18px 0 18px 32px;
+
+        .table__header & {
+            padding: 12px 0 12px 32px;
+        }
+
+        .table__footer & {
+            padding: 0 0 0 32px;
+        }
+
+        &._first {
+            flex: 1 0 auto;
+            width: auto;
+            text-align: left;
+            color: rgba(0, 0, 0, 0.87);
+            padding: 18px 0;
+
+            ._header & {
+                padding: 12px 0;
+                color: #919699;
+            }
+
+            ._footer & {
+                padding: 0;
+            }
+        }
+
+        &[role="button"] {
+            cursor: pointer;
+        }
+
+        &[data-sort="true"] {
+            position: relative;
+            padding-left: 24px;
+
+            &:before {
+                content: '';
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                background: url(../../assets/img/svg/sort.svg) center center / 100% 100% no-repeat;
+            }
+
+            &[data-sort-direction="desc"] {
+                &:before {
+                    transform: translateY(-50%) rotate(180deg);
+                }
+            }
+        }
+    }
+}
+
+.search-input {
+    display: block;
+    width: 100%;
+    border: 1px solid #C6CACC;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: calc(20 / 14);
+    padding: 6px 12px;
+    background: transparent;
+}

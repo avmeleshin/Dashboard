@@ -1,0 +1,48 @@
+.btn-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: relative;
+    background: #F7F9FA;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: background .35s ease-in-out;
+    }
+
+    &._print {
+        &:before {
+            background: url(../../assets/img/svg/print-gray.svg) center center / 100% 100% no-repeat;
+        }
+
+        &:hover {
+            &:before {
+                background: url(../../assets/img/svg/print-blue.svg) center center / 100% 100% no-repeat;
+            }
+        }
+    }
+
+    &._download {
+        &:before {
+            background: url(../../assets/img/svg/download-gray.svg) center center / 100% 100% no-repeat;
+        }
+
+        &:hover {
+            &:before {
+                background: url(../../assets/img/svg/download-blue.svg) center center / 100% 100% no-repeat;
+            }
+        }
+    }
+}

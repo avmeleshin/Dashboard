@@ -1,0 +1,15 @@
+.content {
+    flex-grow: 1;
+    padding: 0 16px;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 28px;
+        gap: 8px;
+
+        h2 {
+            margin-right: auto;
+        }
+    }
+}

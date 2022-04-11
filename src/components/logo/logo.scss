@@ -1,0 +1,36 @@
+.logo {
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Racing Sans One', cursive;
+        font-size: 24px;
+        line-height: calc(28 / 24);
+        letter-spacing: 0.15px;
+        cursor: default;
+    }
+
+    &__box {
+        background: #FFFFFF;
+        width: 40px;
+        height: 40px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 6px rgba(8, 35, 48, 0.16), 0px 1px 2px rgba(8, 35, 48, 0.24);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            color: #367BF5;
+            text-transform: uppercase;
+            text-shadow: 0px 16px 24px rgba(54, 123, 245, 0.16), 0px 6px 12px rgba(54, 123, 245, 0.16);
+        }
+
+    }
+
+    &__text {
+        color: #5E6366;
+    }
+}
